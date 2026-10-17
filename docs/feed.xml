@@ -39,6 +39,13 @@
     <summary>Qwen Code keeps one JSONL file per session under ~/.qwen/projects. Delete one session with its sub-agent logs, or all, and keep your settings.</summary>
   </entry>
   <entry>
+    <title>How to delete TRAE CLI sessions — deja-vu</title>
+    <id>https://vshulcz.github.io/deja-vu/guide/delete-trae-sessions.html</id>
+    <link rel="alternate" type="text/html" href="https://vshulcz.github.io/deja-vu/guide/delete-trae-sessions.html"></link>
+    <updated>2026-10-16T00:00:00Z</updated>
+    <summary>How to delete TRAE CLI sessions — one rollout, one day, or all of ~/.trae/cli/sessions — and why an archived session and history.jsonl survive it.</summary>
+  </entry>
+  <entry>
     <title>Privacy — deja-vu docs</title>
     <id>https://vshulcz.github.io/deja-vu/guide/privacy.html</id>
     <link rel="alternate" type="text/html" href="https://vshulcz.github.io/deja-vu/guide/privacy.html"></link>
@@ -289,5 +296,40 @@
     <link rel="alternate" type="text/html" href="https://vshulcz.github.io/deja-vu/guide/memory-for-amp.html"></link>
     <updated>2026-10-14T00:00:00Z</updated>
     <summary>Amp keeps every thread on the server and starts each one empty. A plugin under ~/.config/amp/plugins puts this machine&#39;s own history before the model.</summary>
+  </entry>
+  <entry>
+    <title>Add memory to Antigravity: past sessions — deja-vu</title>
+    <id>https://vshulcz.github.io/deja-vu/guide/memory-for-antigravity.html</id>
+    <link rel="alternate" type="text/html" href="https://vshulcz.github.io/deja-vu/guide/memory-for-antigravity.html"></link>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <summary>Antigravity records every conversation and starts each one from nothing. deja injects matching history before each model call and indexes every agent.</summary>
+  </entry>
+  <entry>
+    <title>Cherry Studio memory: every agent&#39;s sessions — deja-vu</title>
+    <id>https://vshulcz.github.io/deja-vu/guide/memory-for-cherrystudio.html</id>
+    <link rel="alternate" type="text/html" href="https://vshulcz.github.io/deja-vu/guide/memory-for-cherrystudio.html"></link>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <summary>Cherry Studio writes its agent sessions under its own app data. deja reads them, and hands the same memory to every other agent on the machine.</summary>
+  </entry>
+  <entry>
+    <title>Add memory to Claude Code: every agent&#39;s sessions — deja-vu</title>
+    <id>https://vshulcz.github.io/deja-vu/guide/memory-for-claude-code.html</id>
+    <link rel="alternate" type="text/html" href="https://vshulcz.github.io/deja-vu/guide/memory-for-claude-code.html"></link>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <summary>How to give Claude Code recall over every coding agent&#39;s sessions on this machine — the MCP server, the SessionStart hook and the plugin marketplace.</summary>
+  </entry>
+  <entry>
+    <title>Add memory to Cline: every agent&#39;s sessions — deja-vu</title>
+    <id>https://vshulcz.github.io/deja-vu/guide/memory-for-cline.html</id>
+    <link rel="alternate" type="text/html" href="https://vshulcz.github.io/deja-vu/guide/memory-for-cline.html"></link>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <summary>Cline&#39;s hook files cannot carry context, so deja comes as a plugin: a rule resolved as instructions are built, a message builder, runtime hooks and /deja.</summary>
+  </entry>
+  <entry>
+    <title>Add memory to CodeWhale: search old sessions — deja-vu</title>
+    <id>https://vshulcz.github.io/deja-vu/guide/memory-for-codewhale.html</id>
+    <link rel="alternate" type="text/html" href="https://vshulcz.github.io/deja-vu/guide/memory-for-codewhale.html"></link>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <summary>CodeWhale keeps one JSON file per session and reads none of them back. deja indexes them with every other agent on the machine and makes them searchable.</summary>
   </entry>
 </feed>
