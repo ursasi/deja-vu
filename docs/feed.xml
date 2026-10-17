@@ -6,7 +6,7 @@
   <link rel="alternate" type="text/html" href="https://vshulcz.github.io/deja-vu/"></link>
   <link rel="self" type="application/atom+xml" href="https://vshulcz.github.io/deja-vu/feed.xml"></link>
   <link rel="hub" href="https://pubsubhubbub.appspot.com/"></link>
-  <updated>2026-10-16T00:00:00Z</updated>
+  <updated>2026-10-17T00:00:00Z</updated>
   <author>
     <name>vshulcz</name>
   </author>
@@ -14,8 +14,22 @@
     <title>deja CLI reference: search, recall, blame, stats — deja-vu</title>
     <id>https://vshulcz.github.io/deja-vu/guide/commands.html</id>
     <link rel="alternate" type="text/html" href="https://vshulcz.github.io/deja-vu/guide/commands.html"></link>
-    <updated>2026-10-16T00:00:00Z</updated>
+    <updated>2026-10-17T00:00:00Z</updated>
     <summary>Every deja subcommand: search, ctx, blame, fix, how, secrets, remember, forget, stats, last, sources, install, embed, sync, doctor, bench and update.</summary>
+  </entry>
+  <entry>
+    <title>How to delete TRAE CLI sessions — deja-vu</title>
+    <id>https://vshulcz.github.io/deja-vu/guide/delete-trae-sessions.html</id>
+    <link rel="alternate" type="text/html" href="https://vshulcz.github.io/deja-vu/guide/delete-trae-sessions.html"></link>
+    <updated>2026-10-17T00:00:00Z</updated>
+    <summary>How to delete TRAE CLI sessions — one rollout, one day, or all of ~/.trae/cli/sessions — and why an archived session and history.jsonl survive it.</summary>
+  </entry>
+  <entry>
+    <title>How to delete Claude Code sessions — deja-vu</title>
+    <id>https://vshulcz.github.io/deja-vu/guide/session-files-on-disk.html</id>
+    <link rel="alternate" type="text/html" href="https://vshulcz.github.io/deja-vu/guide/session-files-on-disk.html"></link>
+    <updated>2026-10-17T00:00:00Z</updated>
+    <summary>One session: rm its .jsonl, or pick it from a list. A whole project: claude project purge. On a timer: cleanupPeriodDays. What /clear does.</summary>
   </entry>
   <entry>
     <title>API keys in your coding agent transcripts — deja-vu</title>
@@ -39,13 +53,6 @@
     <summary>Qwen Code keeps one JSONL file per session under ~/.qwen/projects. Delete one session with its sub-agent logs, or all, and keep your settings.</summary>
   </entry>
   <entry>
-    <title>How to delete TRAE CLI sessions — deja-vu</title>
-    <id>https://vshulcz.github.io/deja-vu/guide/delete-trae-sessions.html</id>
-    <link rel="alternate" type="text/html" href="https://vshulcz.github.io/deja-vu/guide/delete-trae-sessions.html"></link>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary>How to delete TRAE CLI sessions — one rollout, one day, or all of ~/.trae/cli/sessions — and why an archived session and history.jsonl survive it.</summary>
-  </entry>
-  <entry>
     <title>Privacy — deja-vu docs</title>
     <id>https://vshulcz.github.io/deja-vu/guide/privacy.html</id>
     <link rel="alternate" type="text/html" href="https://vshulcz.github.io/deja-vu/guide/privacy.html"></link>
@@ -58,13 +65,6 @@
     <link rel="alternate" type="text/html" href="https://vshulcz.github.io/deja-vu/guide/search.html"></link>
     <updated>2026-10-16T00:00:00Z</updated>
     <summary>deja search syntax: exact and phrase queries, natural language with stop words, fuzzy typo tolerance, confidence tiers, and optional local semantic recall.</summary>
-  </entry>
-  <entry>
-    <title>How to delete Claude Code sessions — deja-vu</title>
-    <id>https://vshulcz.github.io/deja-vu/guide/session-files-on-disk.html</id>
-    <link rel="alternate" type="text/html" href="https://vshulcz.github.io/deja-vu/guide/session-files-on-disk.html"></link>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary>One session: rm its .jsonl, or pick it from a list. A whole project: claude project purge. On a timer: cleanupPeriodDays. What /clear does.</summary>
   </entry>
   <entry>
     <title>Sync coding-agent history between machines — deja-vu</title>
@@ -289,47 +289,5 @@
     <link rel="alternate" type="text/html" href="https://vshulcz.github.io/deja-vu/guide/memory-for-aider.html"></link>
     <updated>2026-10-14T00:00:00Z</updated>
     <summary>aider appends every message to one markdown log and reads none of it back. deja keeps a read-only context file current and indexes every agent on the machine.</summary>
-  </entry>
-  <entry>
-    <title>Add memory to Amp: every agent&#39;s sessions — deja-vu</title>
-    <id>https://vshulcz.github.io/deja-vu/guide/memory-for-amp.html</id>
-    <link rel="alternate" type="text/html" href="https://vshulcz.github.io/deja-vu/guide/memory-for-amp.html"></link>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <summary>Amp keeps every thread on the server and starts each one empty. A plugin under ~/.config/amp/plugins puts this machine&#39;s own history before the model.</summary>
-  </entry>
-  <entry>
-    <title>Add memory to Antigravity: past sessions — deja-vu</title>
-    <id>https://vshulcz.github.io/deja-vu/guide/memory-for-antigravity.html</id>
-    <link rel="alternate" type="text/html" href="https://vshulcz.github.io/deja-vu/guide/memory-for-antigravity.html"></link>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <summary>Antigravity records every conversation and starts each one from nothing. deja injects matching history before each model call and indexes every agent.</summary>
-  </entry>
-  <entry>
-    <title>Cherry Studio memory: every agent&#39;s sessions — deja-vu</title>
-    <id>https://vshulcz.github.io/deja-vu/guide/memory-for-cherrystudio.html</id>
-    <link rel="alternate" type="text/html" href="https://vshulcz.github.io/deja-vu/guide/memory-for-cherrystudio.html"></link>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <summary>Cherry Studio writes its agent sessions under its own app data. deja reads them, and hands the same memory to every other agent on the machine.</summary>
-  </entry>
-  <entry>
-    <title>Add memory to Claude Code: every agent&#39;s sessions — deja-vu</title>
-    <id>https://vshulcz.github.io/deja-vu/guide/memory-for-claude-code.html</id>
-    <link rel="alternate" type="text/html" href="https://vshulcz.github.io/deja-vu/guide/memory-for-claude-code.html"></link>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <summary>How to give Claude Code recall over every coding agent&#39;s sessions on this machine — the MCP server, the SessionStart hook and the plugin marketplace.</summary>
-  </entry>
-  <entry>
-    <title>Add memory to Cline: every agent&#39;s sessions — deja-vu</title>
-    <id>https://vshulcz.github.io/deja-vu/guide/memory-for-cline.html</id>
-    <link rel="alternate" type="text/html" href="https://vshulcz.github.io/deja-vu/guide/memory-for-cline.html"></link>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <summary>Cline&#39;s hook files cannot carry context, so deja comes as a plugin: a rule resolved as instructions are built, a message builder, runtime hooks and /deja.</summary>
-  </entry>
-  <entry>
-    <title>Add memory to CodeWhale: search old sessions — deja-vu</title>
-    <id>https://vshulcz.github.io/deja-vu/guide/memory-for-codewhale.html</id>
-    <link rel="alternate" type="text/html" href="https://vshulcz.github.io/deja-vu/guide/memory-for-codewhale.html"></link>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <summary>CodeWhale keeps one JSON file per session and reads none of them back. deja indexes them with every other agent on the machine and makes them searchable.</summary>
   </entry>
 </feed>
